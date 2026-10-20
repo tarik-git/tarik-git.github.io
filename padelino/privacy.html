@@ -17,14 +17,14 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">Padelino for Android phones and Wear OS watches · Effective 18 October 2026</p>
+  <p class="muted">Padelino for Android phones and Wear OS watches · Effective 20 October 2026</p>
 
   <div class="card">
     <ul>
       <li>There is no account and no Padelino server. Your matches stay on your phone and watch.</li>
       <li>Heart rate, calories, steps and hits are measured on your watch and stay on your devices.</li>
       <li>If you turn it on, matches are saved as workouts in Health Connect. Padelino only writes there; it never reads your health data.</li>
-      <li>Anonymous usage statistics and crash reports go to Google Firebase. You can turn them off in Settings.</li>
+      <li>Usage statistics and crash reports go to Google Firebase, linked to a random ID for your installation of the app, not to your name. You can turn them off in Settings.</li>
       <li>No ads, no advertising ID and no tracking across apps.</li>
     </ul>
   </div>
@@ -55,13 +55,14 @@
   <h2>Usage statistics and crash reports</h2>
   <p>To learn which features are used and to fix crashes, the phone app uses Google Analytics for Firebase and Firebase Crashlytics.</p>
   <ul>
-    <li><strong>Usage statistics</strong> are anonymous events such as which screen was opened or that a match was logged. They never contain names, scores, team names, anything you type, or health data. Google also collects basic technical data, such as device model, Android version, app version and approximate country.</li>
+    <li><strong>Usage statistics</strong> are events such as which screen was opened, that a match was logged or that a setting was changed. Lengths and counts are only sent as ranges (for example "30–60 minutes"). They never contain names, scores, team names, anything you type, or health data. Google also collects basic technical data, such as device model, Android version, app version and approximate country.</li>
+    <li>Firebase links usage statistics and crash reports to a random ID for your installation of the app. It isn't your name, email address or advertising ID, but it means the data isn't fully anonymous: events from the same installation can be seen together. Uninstalling the app or deleting its data gives a new ID.</li>
     <li><strong>Crash reports</strong> contain technical details about the crash (device model, Android version, app version and where in the code it happened). They don't contain your matches, players or health data.</li>
     <li>Padelino doesn't use the advertising ID.</li>
     <li>You can turn both off with <strong>Settings › Share Usage Data</strong>.</li>
     <li>Usage statistics are kept by Google for up to 14 months; crash reports for up to 90 days.</li>
   </ul>
-  <p>Google processes this data under the <a href="https://firebase.google.com/support/privacy">Firebase privacy and security terms</a>.</p>
+  <p>Padelino for Android and Padelino for iPhone use the same Firebase project, so the developers of both apps see these statistics and crash reports together. Google processes this data under the <a href="https://firebase.google.com/support/privacy">Firebase privacy and security terms</a>.</p>
 
   <h2>Notifications</h2>
   <p>While a match is being played, the phone can show a notification with the live score. It is created on your phone and isn't sent anywhere.</p>
@@ -73,7 +74,7 @@
   <p>CSV and JSON exports are created on your phone. They go only where you choose to send or save them.</p>
 
   <h2>Sharing</h2>
-  <p>We don't sell or rent any data. Apart from Google processing usage statistics and crash reports as described above, no data is shared with anyone.</p>
+  <p>We don't sell or rent any data. Apart from Google processing usage statistics and crash reports as described above, and the developer of Padelino for iPhone seeing them in the shared Firebase project, no data is shared with anyone.</p>
 
   <h2>Children</h2>
   <p>Padelino is not directed at children under 13, and we don't knowingly collect data from them.</p>
